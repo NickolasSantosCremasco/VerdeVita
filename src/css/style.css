@@ -1,0 +1,39 @@
+* {
+    display: block;
+}
+.navbar {
+    position: relative;
+    width: 80%;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%);
+}
+
+#navList {
+    font-size: 15pt;
+    width: 50%;
+}
+
+.mainContainer {
+   position: relative;
+    z-index: -1;
+    top: -115px;
+    background-image: url(../img/forest.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 85vh;
+    
+    
+}
+.companyName {
+    color: white;
+}
+.nav-link {
+    color: white;
+}
+
+.content h3, h1, h2 {
+    color: white;
+    text-align: center;
+
+}
