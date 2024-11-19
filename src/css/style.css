@@ -1,12 +1,15 @@
 * {
     display: block;
 }
+
+/*Start Navbar*/
 .navbar {
     position: relative;
     width: 80%;
     left: 50%;
     top: 20px;
     transform: translate(-50%);
+    z-index: 1;
 }
 
 #navList {
@@ -14,26 +17,72 @@
     width: 50%;
 }
 
-.mainContainer {
-   position: relative;
-    z-index: -1;
-    top: -115px;
-    background-image: url(../img/forest.jpg);
-    background-position: bottom;
-    background-size: cover;
-    height: 85vh;
-    
-    
-}
-.companyName {
-    color: white;
-}
 .nav-link {
     color: white;
 }
 
+.companyName {
+    color: white;
+    font-weight: 300;
+}
+
+
+/*End Navbar*/
+
+/*Start Content*/
+
+.mainContainer {
+    position: relative;
+     z-index: 0;
+     top: -115px;
+     background-image: url(../img/forest.jpg);
+     background-position: bottom;
+     background-size: cover;
+     height: 85vh;
+     
+     
+ }
+
 .content h3, h1, h2 {
     color: white;
     text-align: center;
+    font-weight: 100;
 
 }
+
+.content h3 {
+    gap:10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#companyNameContent {
+    color: green;
+}
+
+
+.buttonBuy {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    z-index: 1000;
+  }
+  
+  .buttonBuy:hover {
+    background-color: #6fffa1;
+    box-shadow: 0 0 20px #6fffb950;
+    transform: scale(1.1);
+  }
+  
+  .buttonBuy:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+   
+    transform: scale(1);
+  }

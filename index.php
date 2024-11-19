@@ -7,7 +7,7 @@
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="src/css/style.css" type="text/css">
+    <link rel="stylesheet" href="src/css/style.css?v=1.0" type="text/css">
     <title>VerdeVita</title>
 </head>
 
@@ -44,13 +44,13 @@
 
     <!--Start Home Content-->
     <div class="container-fluid d-flex justify-content-center align-items-center mainContainer">
-        <div class="d-flex flex-column justify-content-center align-items-center content">
-            <h3>Feito por VerdeVita</h3>
+        <div class="d-flex flex-column justify-content-center align-items-center gap-4 content">
+            <h3>Feito por <span id="companyNameContent">VerdeVita</span></h3>
             <h1>Transformando o Mundo <br>com Natureza!</h1>
-            <h2>Conectando as pessoas com a Natureza</h2>
+            <button class=" btn buttonBuy" href="index.php">Compre Agora!</button>
         </div>
     </div>
-    <div>
+    <div class="container-fluid">
         opa
     </div>
 
@@ -58,7 +58,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script src="src/js/script.js"></script>
+
+ 
+    <script src="src/js/script.js?v=1.0"></script>
 </body>
 
 </html>
