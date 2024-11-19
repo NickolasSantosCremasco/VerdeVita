@@ -43,15 +43,18 @@
     <!--End Navbar-->
 
     <!--Start Home Content-->
-    <div class="container-fluid d-flex justify-content-center align-items-center mainContainer">
-        <div class="d-flex flex-column justify-content-center align-items-center gap-4 content">
+    <div class="container-fluid d-flex justify-content-center align-items-center firstContainer">
+        <div class="d-flex flex-column justify-content-center align-items-center gap-2 content">
             <h3>Feito por <span id="companyNameContent">VerdeVita</span></h3>
             <h1>Transformando o Mundo <br>com Natureza!</h1>
             <button class=" btn buttonBuy" href="index.php">Compre Agora!</button>
         </div>
     </div>
-    <div class="container-fluid">
-        opa
+    <div class="container-fluid secondContainer">
+        <img src="src/img/plantas.png" class="plant" alt="plantas">
+        <div class="checking d-flex justify-content-center align-items-center">
+            <button class="btn btn-primary float-end">Promoções</button>
+        </div>
     </div>
 
     <!--Bootstrap-->
